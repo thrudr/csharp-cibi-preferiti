@@ -11,6 +11,7 @@ numberElementsArrayInString(arrayFavoriteFood);
 
 Console.WriteLine("--------------------------------------------");
 favoriteFoodclassifString(arrayFavoriteFood);
+lessFavoriteFoodString(arrayFavoriteFood);
 
 Console.WriteLine("--------------------------------------------");
 
@@ -59,7 +60,10 @@ void favoriteFoodclassifString(string[] array)
     Console.WriteLine(array[0] + " - THE BEST!");
 }
 
-
+void lessFavoriteFoodString(string[] array)
+{
+    Console.WriteLine(array[5] + " - SOMETIMES I DON'T LIKE IT.");
+}
 
 
 
