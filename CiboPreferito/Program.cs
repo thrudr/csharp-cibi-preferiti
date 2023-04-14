@@ -5,6 +5,11 @@ string[] arrayFavoriteFood = { "Apple", "Strawberry", "Meat", "Beer", "Wine", "R
 
 printArrayString(arrayFavoriteFood);
 
+Console.WriteLine("--------------------------------------------");
+numberElementsArrayInString(arrayFavoriteFood);
+
+
+
 
 
 
@@ -19,7 +24,10 @@ void printArrayString(string[] array)
 
 }
 
-
+void numberElementsArrayInString(string[] array)
+{
+    Console.WriteLine("This array have " + array.Length + " elements.");
+}
 
 
 
