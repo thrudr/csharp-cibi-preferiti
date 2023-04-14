@@ -1,12 +1,35 @@
-﻿Console.WriteLine("----------------Favorite Food---------------");
+﻿
 
 //MAIN PROGRAM
-string[] arrayFavoriteFood = { "Apple", "Strawberry", "Meat", "Beer", "Wine", "Rise", };
 
+Console.WriteLine("----------------Favorite Food---------------");
+string[] arrayFavoriteFood = { "Apple", "Strawberry", "Meat", "Beer", "Wine", "Rise", };
 printArrayString(arrayFavoriteFood);
 
 Console.WriteLine("--------------------------------------------");
 numberElementsArrayInString(arrayFavoriteFood);
+
+Console.WriteLine("--------------------------------------------");
+favoriteFoodclassifString(arrayFavoriteFood);
+
+Console.WriteLine("--------------------------------------------");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -19,15 +42,28 @@ void printArrayString(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.WriteLine(" - " + array[i]);
+        Console.WriteLine(i+1 + " - " + array[i]);
     }
 
 }
+
 
 void numberElementsArrayInString(string[] array)
 {
     Console.WriteLine("This array have " + array.Length + " elements.");
 }
+
+
+void favoriteFoodclassifString(string[] array)
+{
+    Console.WriteLine(array[0] + " - THE BEST!");
+}
+
+
+
+
+
+
 
 
 
